@@ -1,11 +1,11 @@
 import React from "react";  
 import { Link } from "react-router-dom";
-import About from "../../Components/About/about"
-const AboutUs = () => { 
+import Login from "../../Components/Login/login"
+const Loginus = () => { 
     return(
         <div>
-            <About/>
+            <Login/>
         </div>
      );
 };
-export default AboutUs;
+export default Loginus;
