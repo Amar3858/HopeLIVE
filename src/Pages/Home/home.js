@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/navbar";
-import { Link } from "react-router-dom";
-
+import {Link} from "react-router-dom"
 const Home = () => {
   return (
     <div
@@ -14,9 +12,9 @@ const Home = () => {
       {/* Overlay Effect for Better Text Visibility */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-      {/* Centered Content - Adjusted to Move Up */}
-      <div className="relative flex justify-center h-full">
-        <h2 className="text-9xl font-bold tracking-wider text-white text-center">
+      {/* Centered Content */}
+      <div className="relative flex flex-col items-center justify-center h-full text-white text-center">
+        <h2 className="text-9xl font-bold tracking-wider">
           <span
             className="relative"
             style={{
@@ -27,6 +25,16 @@ const Home = () => {
             Hope Live
           </span>
         </h2>
+        
+        {/* Buttons Section */}
+        <div className="mt-10 flex space-x-6">
+          <Link to="/login" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition">
+            Donate
+          </Link>
+          <Link to="/login" className="px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-green-700 transition">
+            Fund Raising
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -9,6 +9,10 @@ import ContactUs from "./Pages/ContactUs/contactus";
 import AboutUs from "./Pages/AboutUs/aboutus"
 import Loginus from "./Pages/Loginus/loginus"
 import Signus from "./Pages/SignUs/signus"
+import ForgotUs from "./Pages/ForgotUs/forgotus"
+import DashBoard from "./Pages/DashBoardPage/dashboardpage"
+import StartCamp from "./Pages/StartCampaignPage/startcampaignpage"
+
 import "./App.css";
 
 function App() {
@@ -22,6 +26,9 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/login" element={<Loginus />} />
           <Route path="/signup" element={<Signus />} />
+          <Route path="/forgot-password" element={<ForgotUs />} />
+          <Route path="/dashboard" element={<DashBoard />} />
+          <Route path="/start-campaign" element={<StartCamp />} />
         </Routes>
       </Router>
     </>
