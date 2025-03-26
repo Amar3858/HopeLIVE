@@ -28,10 +28,10 @@ const Home = () => {
         
         {/* Buttons Section */}
         <div className="mt-10 flex space-x-6">
-          <Link to="/login" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition">
+          <Link to="/login" className="transition ease-in-out delay-120 bg-blue-600 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-300 transform px-7 py-3 text-white text-lg font-semibold rounded-lg shadow-lg">
             Donate
           </Link>
-          <Link to="/login" className="px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-green-700 transition">
+          <Link to="/login" className="   transition ease-in-out delay-120 bg-green-600 hover:-translate-y-1 hover:scale-110 hover:bg-green-700 duration-300 transform px-3 py-3 text-white text-lg font-semibold rounded-lg shadow-lg">
             Fund Raising
           </Link>
         </div>

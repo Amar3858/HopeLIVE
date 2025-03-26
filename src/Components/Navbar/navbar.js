@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-gray-700 to-gray-900 text-white shadow-lg sticky">
+    <nav className="bg-gradient-to-r from-gray-700 to-gray-900 text-white shadow-lg sticky top-0 z-10">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Left side - Navigation links */}
         <div className="flex space-x-6">
